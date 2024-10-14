@@ -49,13 +49,13 @@ function onPreviousButtonClicked() {
 function updateKittyInfo(index) {
   // TODO: Update the image with the ID "my-banner" with the new image. Hint: Use document.getElementById() to 
   // get the element with the ID "my-banner" and use `src` property to update the `src` of the image.
-  document.getElementById("my-banner").src = IMAGES[currentIndex];
+  document.getElementById("my-banner").src = IMAGES[index];
 
   // TODO: Update the Title of the image here. Hint: Use `innerHTML` property instead of `src`.
-  document.getElementById("kitty-title").innerHTML = IMAGE_TITLES[currentIndex];
+  document.getElementById("kitty-title").innerHTML = IMAGE_TITLES[index];
 
   // TODO: Update the Like number of the image here. Hint: Use `innerHTML` property instead of `src`.
-  document.getElementById("like-number").innerHTML = LIKE_NUMBERS[currentIndex];
+  document.getElementById("like-number").innerHTML = LIKE_NUMBERS[index];
 
 }
 
