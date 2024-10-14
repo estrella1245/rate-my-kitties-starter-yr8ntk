@@ -52,10 +52,10 @@ function updateKittyInfo(index) {
   document.getElementById("my-banner").src = IMAGES[currentIndex];
 
   // TODO: Update the Title of the image here. Hint: Use `innerHTML` property instead of `src`.
-  document.getElementById("kitty-title").innerHTML = IMAGE_TITLES[currentIndex];
+  document.getElementById("kitty-title").innerHTML = IMAGE_TITLES[currentIndex++];
 
   // TODO: Update the Like number of the image here. Hint: Use `innerHTML` property instead of `src`.
-  document.getElementById("like-number").innerHTML = LIKE_NUMBERS[currentIndex];
+  document.getElementById("like-number").innerHTML = LIKE_NUMBERS[currentIndex++];
 
 }
 
